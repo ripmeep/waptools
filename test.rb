@@ -14,6 +14,8 @@ aps.each { |ap|
 #   Note: ap.to_s will output all details of the nearby AP
 #	puts ap.to_s
 
+        next if ap.nil?
+
 	puts "SSID     : #{ap.ssid}"
 	puts "BSSID    : #{ap.bssid}"	
 	puts "Frequency: #{ap.frequency}"
