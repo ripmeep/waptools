@@ -447,3 +447,4 @@ void WirelessScannerStruct_free(WirelessScannerStruct *self)
 		free(self);
 	}
 }
+
